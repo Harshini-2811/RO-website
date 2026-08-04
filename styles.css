@@ -1334,3 +1334,84 @@ body {
 .hero-img:hover {
   transform: scale(1.03);
 }
+
+@media (max-width: 768px) {
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .logo img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+
+  .logo-text {
+    text-align: center;
+  }
+
+  .logo-text h2,
+  .logo-text p {
+    text-align: center;
+  }
+
+}
+
+@media (max-width:768px){
+
+  .navbar{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:15px;
+  }
+
+  .nav-links{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+  }
+}
+
+@media (max-width:768px){
+
+  .logo-text h2{
+    font-size:28px;
+    margin:5px 0;
+  }
+
+  .logo-text p{
+    font-size:16px;
+  }
+
+}
+
+@media (max-width:768px){
+
+.hero{
+    padding:30px 20px;
+}
+
+.hero-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:20px;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:320px;
+}
+
+}
